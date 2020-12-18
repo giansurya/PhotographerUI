@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+.body-title h1 {
+    animation: fadeInH1 2s forwards;
+}
+
+.body-title h2 {
+    animation: fadeInH2 2s forwards;
+}
+
+@keyframes fadeInH1 {
+    from {
+        opacity: 0;
+        transform: translateY(-.3em);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInH2 {
+    from {
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 9rem;
+    letter-spacing: 0px;
+    margin: 0;
+    padding-left: 0.2em;
+    padding-top: 0.2em;
+}
+
+h2 {
+    font-size: 2rem;
+    letter-spacing: 0.3cm;
+    margin: 0;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+
+}
+
+li div {
+    float: left;
+    padding: 2em 0.7em 0 3em;
+    display: block;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 55%;
+    letter-spacing: 0.1cm;
+
+}
+
+li span::before {
+    content: '';
+    position: absolute;
+    width: 1.5em;
+    height: 10em;
+    background-color: black;
+}
+
+
+.head-bar {
+    border: 0.5px solid rgb(182, 192, 202);
+    padding: 1em 8em;
+    position: relative;
+}
+
+input[type=text] {
+    padding: 0.5em;
+    border: 0.5px solid rgb(182, 192, 202);
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input [type=text]:focus {
+    border-color: dodgerblue;
+    border-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.head-bar form i {
+    position: absolute;
+    left: 11.5em;
+    padding-top: .25em;
+    color: rgb(182, 192, 202);
+    cursor: pointer;
+}
+
+.head-bar i {
+    position: absolute;
+    right: 2em;
+    top: .65em;
+    color: rgb(182, 192, 202);
+    cursor: pointer;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px 12px 5px;
+    z-index: 1;
+    right: 4em;
+    top: 4.25em;
+    color: grey;
+    font-weight: 500;
+
+}
+
+.dropdown-content a {
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+.body-title {
+    background-image: url(../images/mountain.jpg);
+    width: 100%;
+    height: 20cm;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.body-about {
+    height: 10cm;
+}
+
+.about-text {
+    padding: 4em;
+}
+
+.about {
+    padding: 4em;
+}
+
+.body-travel {
+    background-color: black;
+    height: 50cm;
+    color: white;
+}
+
+.travel {
+    color: white;
+    padding-left: 4em;
+}
+
+.travel-text {
+    color: white;
+    padding-left: 5em;
+    width: 45%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.1cm;
+}
+
+.gallery-1 li {
+    color: white;
+    float: left;
+    padding-left: 2em;
+    padding-top: 2em;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 20%;
+    text-align: center;
+}
+
+.gallery-1 li div {
+    height: 20cm;
+    width: 10em;
+    padding: 0;
+}
+
+.mini-gallery-1 {
+    padding: 0;
+}
+
+.mini-gallery-1 ul {
+    padding-left: 0.1em;
+}
+
+#image-1 {
+    background-image: url(../images/swiss.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 4em;
+    padding-top: 8em;
+}
+
+#image-2 {
+    background-image: url(../images/newyork.jpg);
+    background-position: top;
+    background-size: 15em;
+    background-repeat: no-repeat;
+    height: 25em;
+    width: 15em;
+    padding: 0;
+}
+
+#image-3 {
+    background-image: url(../images/japan.jpg);
+    background-position: top;
+    background-size: 15em;
+    background-repeat: no-repeat;
+    height: 25em;
+    width: 15em;
+    padding: 0;
+    margin-top: em;
+}
+
+#image-4 {
+    background-image: url(../images/beach.jpg);
+    background-position: top;
+    background-size: 15em;
+    background-repeat: no-repeat;
+    height: 25em;
+    width: 15em;
+    padding: 0;
+    margin-top: 13.5em;
+    margin-left: -1em;
+}
+
+#image-5 {
+    background-image: url(../images/forest.jpg);
+    background-position: top;
+    background-size: 15em;
+    background-repeat: no-repeat;
+    height: 25em;
+    width: 15em;
+    padding: 0;
+    margin-left: -1em;
+}
+
+#image-6 {
+    background-image: url(../images/surf.jpg);
+    background-position: top;
+    background-size: 15em;
+    background-repeat: no-repeat;
+    height: 25em;
+    width: 15em;
+    padding: 0;
+    margin-top: 9em;
+}
+
+.mini-gallery-3 ul {
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.mini-gallery-3 li {
+    padding-left: 0;
+
+}
+
+#text {
+    margin-left: -10em;
+}
+
+#text-1 li {
+    padding: 0 0 .5em 0;
+    margin-left: -2em;
+}
+
+#text-1 ul li {
+    width: 10cm;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    padding-left: 0;
+    display: block;
+    font-weight: 500;
+}
+
+.background-two {
+    background-image: url(../images/crows.jpg);
+    height: 18cm;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 110%;
+}
+
+.body-porto {
+    height: 30cm;
+}
+
+#gowhere {
+    margin: 0;
+    padding: 0;
+    padding-right: 1em;
+    padding-left: 8em;
+}
+
+.gowhere li p {
+    font-size: 1.2rem;
+    padding-top: 4em;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 0.1cm;
+    padding-right: 5em;
+}
+
+.amazing-places {
+    padding: 5em 0 0 10em;
+}
+
+.horiz-bar {
+    padding-left: 12em;
+    padding-top: 3em;
+}
+
+.horiz-bar span::before {
+    content: '';
+    position: absolute;
+    width: 10em;
+    height: 1.5em;
+    background-color: black;
+    margin-top: -2em;
+}
+
+.amazing-text {
+    padding: 4em;
+    padding-left: 10em;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.1cm;
+    width: 45%;
+}
+
+.gallery-2 li {
+    color: black;
+    float: left;
+    padding-left: 2em;
+    padding-top: 2em;
+    margin-right: 2em;
+    margin-left: 1em;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 20%;
+    text-align: center;
+}
+
+.gallery-2 ul {
+    padding-left: 10.8em;
+}
+
+#image-7 {
+    background-image: url(../images/road.jpg);
+    background-position: top;
+    background-size: 15em;
+    background-repeat: no-repeat;
+    height: 15em;
+    width: 10em;
+}
+
+#image-8 {
+    background-image: url(../images/waves.jpg);
+    background-position: top;
+    background-size: 15em;
+    background-repeat: no-repeat;
+    height: 15em;
+    width: 10em;
+}
+
+#image-9 {
+    background-image: url(../images/lake.jpg);
+    background-position: top;
+    background-size: 15em;
+    background-repeat: no-repeat;
+    height: 15em;
+    width: 10em;
+}
+
+#image-10 {
+    background-image: url(../images/foam.jpg);
+    background-position: top;
+    background-size: 15em;
+    background-repeat: no-repeat;
+    height: 15em;
+    width: 10em;
+}
+
+.background-three {
+    background-image: url(../images/snow.jpg);
+    height: 15cm;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 110%;
+}
+
+.body-bottom {
+    height: 15cm;
+}
+
+.body-bottom h1 {
+    padding-left: 1.2em;
+}
+
+.bottom-text {
+    padding-left: 9.4em;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.1cm;
+    width: 50%;
+}
+
+.social-media {
+    padding-top: 2em;
+    padding-left: 11em;
+}
+
+.social-media li {
+    margin-right: 3em;
+}
+
+#facebook {
+    padding-right: 1em;
+    cursor: pointer;
+}
+
+#twitter {
+    padding-right: 1em;
+    cursor: pointer;
+}
+
+#instagram {
+    padding-right: 1em;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: rgb(41, 41, 41);
+    height: 6cm;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer p {
+    padding-top: 1em;
+    padding-bottom: 0;
+}
+
+@keyframes fadeInH1 {
+    from {
+        opacity: 0;
+        transform: translateY(-.3em);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInH2 {
+    from {
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
